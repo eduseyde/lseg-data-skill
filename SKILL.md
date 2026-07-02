@@ -122,7 +122,8 @@ accordingly.
 
 - [data-items/README.md](references/data-items/README.md) — catalog index and the two field families
 - Balance sheet, income statement, cash flow, fundamentals, estimates,
-  valuation & ratios, ESG, identifiers, pricing fields.
+  valuation & ratios, ESG, identifiers, pricing fields, funds, interest-rate
+  swaps, FX spot, FX forwards, FX options.
 
 **Examples & scripts:**
 

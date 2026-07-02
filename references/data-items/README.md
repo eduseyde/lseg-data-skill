@@ -50,6 +50,9 @@ definition matches your use case.
 | [pricing-fields.md](pricing-fields.md) | pricing | `get_history()` OHLCV and real-time fields |
 | [funds.md](funds.md) | `TR.Fund*` | Lipper fund/ETF data — overview, allocation, holdings, flows, performance, ratings, ESG (281) |
 | [swap-rates.md](swap-rates.md) | RIC / `get_history` | Interest-rate-swap & OIS curves — par swap rates by currency × tenor for discount/yield curves (40+ currencies) |
+| [fx-spot.md](fx-spot.md) | RIC / `get_history` | FX spot rates — one bare-code RIC per USD pair, concatenated codes for crosses (30+ currencies) |
+| [fx-forwards.md](fx-forwards.md) | RIC / `get_history` | FX forward points, outrights, and NDFs by currency × tenor (ON to 10Y) |
+| [fx-options.md](fx-options.md) | RIC / `get_history` | FX implied-volatility surfaces — ATM/RR/BF market convention and a full delta/strike smile |
 
 ## Universal notes
 
