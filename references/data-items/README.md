@@ -40,7 +40,7 @@ definition matches your use case.
 | File | Family | Contents |
 |---|---|---|
 | [balance-sheet.md](balance-sheet.md) | `TR.F.*` | Balance sheet line items (~144) |
-| [income-statement.md](income-statement.md) | `TR.F.*` | Income statement line items (~96) |
+| [income-statement.md](income-statement.md) | `TR.F.*` | Income statement line items (~101) |
 | [cash-flow.md](cash-flow.md) | `TR.F.*` | Cash flow statement line items (~49) |
 | [fundamentals.md](fundamentals.md) | `TR.*` | Headline calculated fundamentals |
 | [estimates.md](estimates.md) | `TR.*` | Analyst consensus estimates |
@@ -48,6 +48,8 @@ definition matches your use case.
 | [esg.md](esg.md) | `TR.*` | ESG scores and emissions |
 | [identifiers.md](identifiers.md) | `TR.*` | Identifiers and classification |
 | [pricing-fields.md](pricing-fields.md) | pricing | `get_history()` OHLCV and real-time fields |
+| [funds.md](funds.md) | `TR.Fund*` | Lipper fund/ETF data — overview, allocation, holdings, flows, performance, ratings, ESG (281) |
+| [swap-rates.md](swap-rates.md) | RIC / `get_history` | Interest-rate-swap & OIS curves — par swap rates by currency × tenor for discount/yield curves (40+ currencies) |
 
 ## Universal notes
 
