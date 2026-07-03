@@ -53,6 +53,7 @@ definition matches your use case.
 | [fx-spot.md](fx-spot.md) | RIC / `get_history` | FX spot rates — one bare-code RIC per USD pair, concatenated codes for crosses (30+ currencies) |
 | [fx-forwards.md](fx-forwards.md) | RIC / `get_history` | FX forward points, outrights, and NDFs by currency × tenor (ON to 10Y) |
 | [fx-options.md](fx-options.md) | RIC / `get_history` | FX implied-volatility surfaces — ATM/RR/BF market convention and a full delta/strike smile |
+| [benchmarks.md](benchmarks.md) | `TR.Index*` / RIC / `get_data` | Equity & fixed-income benchmarks — index level, valuation multiples (P/E, P/B, div yield, forward), returns, metadata, constituents (get_data-only; get_history denied) |
 
 ## Universal notes
 
