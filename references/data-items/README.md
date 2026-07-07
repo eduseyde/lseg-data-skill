@@ -54,6 +54,8 @@ definition matches your use case.
 | [fx-forwards.md](fx-forwards.md) | RIC / `get_history` | FX forward points, outrights, and NDFs by currency × tenor (ON to 10Y) |
 | [fx-options.md](fx-options.md) | RIC / `get_history` | FX implied-volatility surfaces — ATM/RR/BF market convention and a full delta/strike smile |
 | [benchmarks.md](benchmarks.md) | `TR.Index*` / RIC / `get_data` | Equity & fixed-income benchmarks — index level, valuation multiples (P/E, P/B, div yield, forward), returns, metadata, constituents (get_data-only; get_history denied) |
+| [sovereign-yields.md](sovereign-yields.md) | RIC / `get_history` | Cash government bond yield curves — on-the-run benchmark redemption yields (`=RR`, `MID_YLD_1`) by country × tenor, plus ready-made par/zero/forward government curves for implied-forward and term-premium work (G10 + euro periphery + major EM) |
+| [money-market-rates.md](money-market-rates.md) | RIC / `get_history` | Money-market, reference & policy rates — overnight RFRs (SOFR/€STR/SONIA/SARON/TONA/CORRA/AONIA), EURIBOR term fixings, compounded SOFR indices, and central-bank policy rates (Fed/ECB/BoE/BoJ/SNB/BoC/RBA) |
 
 ## Universal notes
 

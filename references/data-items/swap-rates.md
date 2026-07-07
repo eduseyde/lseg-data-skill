@@ -278,4 +278,7 @@ instruments and construct the curve in code.
   (`EUREST10Y=`). When unsure, `search_instruments("<Currency> <benchmark> <tenor> Overnight Index
   Swap")` returns the exact RIC.
 - **Related family:** government benchmark **bond** yields (a different way to get a yield curve)
-  live under `=RR` benchmark RICs with `MID_YLD_1` — see the benchmark-yield notes, not this file.
+  live under `=RR` benchmark RICs with `MID_YLD_1` — see [sovereign-yields.md](sovereign-yields.md), not this file.
+- **Related family:** the overnight and term reference-rate fixings that OIS curves are built on
+  (SOFR, €STR, SONIA, EURIBOR) and central-bank policy rates live in
+  [money-market-rates.md](money-market-rates.md).
