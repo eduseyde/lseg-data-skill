@@ -55,6 +55,7 @@ definition matches your use case.
 | [fx-options.md](fx-options.md) | RIC / `get_history` | FX implied-volatility surfaces — ATM/RR/BF market convention and a full delta/strike smile |
 | [benchmarks.md](benchmarks.md) | `TR.Index*` / RIC / `get_data` | Equity & fixed-income benchmarks — index level, valuation multiples (P/E, P/B, div yield, forward), returns, metadata, constituents (get_data-only; get_history denied) |
 | [sovereign-yields.md](sovereign-yields.md) | RIC / `get_history` | Cash government bond yield curves — on-the-run benchmark redemption yields (`=RR`, `MID_YLD_1`) by country × tenor, plus ready-made par/zero/forward government curves for implied-forward and term-premium work (G10 + euro periphery + major EM) |
+| [market-indices.md](market-indices.md) | RIC / `get_history` | Market barometers & headline indices — the `DXY / VIX / MOVE` family: dollar index, cross-asset volatility gauges (VSTOXX + term structure, MOVE, VHSI, India VIX; CBOE suite catalogued), commodity indices (Bloomberg Commodity, CRB, Baltic Dry), and equity benchmark levels (US/Europe/Asia/EM + MSCI). Value in `TRDPRC_1`; entitlement markers throughout |
 | [money-market-rates.md](money-market-rates.md) | RIC / `get_history` | Money-market, reference & policy rates — overnight RFRs (SOFR/€STR/SONIA/SARON/TONA/CORRA/AONIA), EURIBOR term fixings, compounded SOFR indices, and central-bank policy rates (Fed/ECB/BoE/BoJ/SNB/BoC/RBA) |
 
 ## Universal notes
